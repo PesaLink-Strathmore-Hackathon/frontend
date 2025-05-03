@@ -1,0 +1,139 @@
+/* General container styling */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* File upload section */
+.upload-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Validation button */
+.validate-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.validate-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.validate-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Loader */
+.loader-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loader {
+  margin: 0 auto 10px auto;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Table styling */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.valid-row {
+  background-color: #e6ffed;
+}
+
+.invalid-row {
+  background-color: #ffe6e6;
+}
+
+/* Error box styling */
+.error-box {
+  background-color: #ffe0e0;
+  color: #b30000;
+  border: 1px solid #ffcccc;
+  padding: 12px 18px;
+  margin: 15px 0;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Summary section */
+.summary-report {
+  background-color: #eef6ff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #cce0ff;
+  margin-top: 20px;
+}
+
+.summary-report h3 {
+  margin-top: 0;
+  color: #004080;
+}
+
+.summary-report ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.summary-report li {
+  margin-bottom: 5px;
+  font-size: 15px;
+}

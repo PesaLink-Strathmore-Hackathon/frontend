@@ -1,0 +1,128 @@
+/* General page background */
+body {
+  background-color: #001f3d; /* Navy blue */
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center the login form */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form container styling */
+.login-form {
+  background: #ffffff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+/* Title styling */
+.login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #000000; /* Black text for header */
+}
+
+/* Input group for labels and inputs */
+.login-input-group {
+  margin-bottom: 1rem;
+}
+
+/* Label styling */
+.login-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #000000; /* Black text for labels */
+}
+
+/* Input field styling */
+.login-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Login button styling */
+.login-button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #4f46e5; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect on login button */
+.login-button:hover {
+  background-color: #4338ca; /* Darker blue on hover */
+}
+
+/* Error message box styling */
+.error-message {
+  background-color: #ffebeb; /* Light red background */
+  color: #d8000c; /* Dark red text */
+  border: 1px solid #f5c6cb;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Error alert with Retry button */
+.error-message button {
+  background-color: #d8000c; /* Dark red background */
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s ease;
+}
+
+.error-message button:hover {
+  background-color: #a60000; /* Darker red for hover */
+}
+
+/* Success message box styling */
+.success-message {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Success message styling */
+.success-message button {
+  background-color: #155724; /* Dark green background */
+  color: white;
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s ease;
+}
+
+.success-message button:hover {
+  background-color: #0b4c1f; /* Darker green for hover */
+}
